@@ -1485,7 +1485,7 @@ async def auto_filter(client, msg, spoll=False):
                 hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
                 try:
                     if settings['auto_delete']:
-                        await asyncio.sleep(10)
+                        await asyncio.sleep(43200)
                         await hehe.delete()
                         await message.delete()
                 except KeyError:
@@ -1493,7 +1493,7 @@ async def auto_filter(client, msg, spoll=False):
                     await save_group_settings(grpid, 'auto_delete', True)
                     settings = await get_settings(message.chat.id)
                     if settings['auto_delete']:
-                        await asyncio.sleep(10)
+                        await asyncio.sleep(43200)
                         await hehe.delete()
                         await message.delete()
                         
@@ -1506,7 +1506,7 @@ async def auto_filter(client, msg, spoll=False):
                 hmm = await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
                 try:
                     if settings['auto_delete']:
-                        await asyncio.sleep(10)
+                        await asyncio.sleep(43200)
                         await hmm.delete()
                         await message.delete()
                 except KeyError:
@@ -1514,7 +1514,7 @@ async def auto_filter(client, msg, spoll=False):
                     await save_group_settings(grpid, 'auto_delete', True)
                     settings = await get_settings(message.chat.id)
                     if settings['auto_delete']:
-                        await asyncio.sleep(10)
+                        await asyncio.sleep(43200)
                         await hmm.delete()
                         await message.delete()
                         
@@ -1526,7 +1526,7 @@ async def auto_filter(client, msg, spoll=False):
                 fek = await message.reply_photo(photo=NOR_IMG, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
                 try:
                     if settings['auto_delete']:
-                        await asyncio.sleep(10)
+                        await asyncio.sleep(43200)
                         await fek.delete()
                         await message.delete()
                 except KeyError:
@@ -1534,7 +1534,7 @@ async def auto_filter(client, msg, spoll=False):
                     await save_group_settings(grpid, 'auto_delete', True)
                     settings = await get_settings(message.chat.id)
                     if settings['auto_delete']:
-                        await asyncio.sleep(10)
+                        await asyncio.sleep(43200)
                         await fek.delete()
                         await message.delete()
                         
@@ -1545,7 +1545,7 @@ async def auto_filter(client, msg, spoll=False):
             fuk = await message.reply_photo(photo=NOR_IMG, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
             try:
                 if settings['auto_delete']:
-                    await asyncio.sleep(10)
+                    await asyncio.sleep(43200)
                     await fuk.delete()
                     await message.delete()
             except KeyError:
@@ -1553,7 +1553,7 @@ async def auto_filter(client, msg, spoll=False):
                 await save_group_settings(grpid, 'auto_delete', True)
                 settings = await get_settings(message.chat.id)
                 if settings['auto_delete']:
-                    await asyncio.sleep(10)
+                    await asyncio.sleep(43200)
                     await fuk.delete()
                     await message.delete()
     if spoll:
@@ -1609,7 +1609,7 @@ async def advantage_spell_chok(client, msg):
 
         )
 
-        await asyncio.sleep(30)
+        await asyncio.sleep(20)
 
         await k.delete()
 
@@ -1641,7 +1641,7 @@ async def advantage_spell_chok(client, msg):
 
         )
 
-        await asyncio.sleep(30)
+        await asyncio.sleep(20)
 
         await k.delete()
 
@@ -1781,7 +1781,7 @@ async def manual_filters(client, message, text=False):
 
                                         if settings['auto_delete']:
 
-                                            await asyncio.sleep(10)
+                                            await asyncio.sleep(43200)
 
                                             await piroxrk.delete()
 
@@ -1795,7 +1795,7 @@ async def manual_filters(client, message, text=False):
 
                                         if settings['auto_delete']:
 
-                                            await asyncio.sleep(10)
+                                            await asyncio.sleep(43200)
 
                                             await piroxrk.delete()
 
@@ -1861,7 +1861,7 @@ async def manual_filters(client, message, text=False):
 
                                         if settings['auto_delete']:
 
-                                            await asyncio.sleep(10)
+                                            await asyncio.sleep(43200)
 
                                             await piroxrk.delete()
 
@@ -1875,7 +1875,7 @@ async def manual_filters(client, message, text=False):
 
                                         if settings['auto_delete']:
 
-                                            await asyncio.sleep(10)
+                                            await asyncio.sleep(43200)
 
                                             await piroxrk.delete()
 
@@ -1937,7 +1937,7 @@ async def manual_filters(client, message, text=False):
 
                                     if settings['auto_delete']:
 
-                                        await asyncio.sleep(10)
+                                        await asyncio.sleep(43200)
 
                                         await piroxrk.delete()
 
@@ -1951,7 +1951,7 @@ async def manual_filters(client, message, text=False):
 
                                     if settings['auto_delete']:
 
-                                        await asyncio.sleep(10)
+                                        await asyncio.sleep(43200)
 
                                         await piroxrk.delete()
 
@@ -2013,7 +2013,7 @@ async def manual_filters(client, message, text=False):
 
                                     if settings['auto_delete']:
 
-                                        await asyncio.sleep(10)
+                                        await asyncio.sleep(43200)
 
                                         await piroxrk.delete()
 
@@ -2027,7 +2027,7 @@ async def manual_filters(client, message, text=False):
 
                                     if settings['auto_delete']:
 
-                                        await asyncio.sleep(10)
+                                        await asyncio.sleep(43200)
 
                                         await piroxrk.delete()
 
@@ -2133,7 +2133,7 @@ async def global_filters(client, message, text=False):
 
                                             if settings['auto_delete']:
 
-                                                await asyncio.sleep(10)
+                                                await asyncio.sleep(43200)
 
                                                 await piroxrk.delete()
 
@@ -2147,7 +2147,7 @@ async def global_filters(client, message, text=False):
 
                                             if settings['auto_delete']:
 
-                                                await asyncio.sleep(10)
+                                                await asyncio.sleep(43200)
 
                                                 await piroxrk.delete()
 
@@ -2239,7 +2239,7 @@ async def global_filters(client, message, text=False):
 
                                             if settings['auto_delete']:
 
-                                                await asyncio.sleep(10)
+                                                await asyncio.sleep(43200)
 
                                                 await piroxrk.delete()
 
@@ -2253,7 +2253,7 @@ async def global_filters(client, message, text=False):
 
                                             if settings['auto_delete']:
 
-                                                await asyncio.sleep(10)
+                                                await asyncio.sleep(43200)
 
                                                 await piroxrk.delete()
 
@@ -2339,7 +2339,7 @@ async def global_filters(client, message, text=False):
 
                                         if settings['auto_delete']:
 
-                                            await asyncio.sleep(10)
+                                            await asyncio.sleep(43200)
 
                                             await piroxrk.delete()
 
@@ -2353,7 +2353,7 @@ async def global_filters(client, message, text=False):
 
                                         if settings['auto_delete']:
 
-                                            await asyncio.sleep(10)
+                                            await asyncio.sleep(43200)
 
                                             await piroxrk.delete()
 
@@ -2441,7 +2441,7 @@ async def global_filters(client, message, text=False):
 
                                         if settings['auto_delete']:
 
-                                            await asyncio.sleep(10)
+                                            await asyncio.sleep(43200)
 
                                             await piroxrk.delete()
 
@@ -2455,7 +2455,7 @@ async def global_filters(client, message, text=False):
 
                                         if settings['auto_delete']:
 
-                                            await asyncio.sleep(10)
+                                            await asyncio.sleep(43200)
 
                                             await piroxrk.delete()
 
